@@ -1,0 +1,12 @@
+/Users/akobirmusaev/Desktop/carauction/src/Contracts/bin/Debug/net9.0/Contracts.deps.json
+/Users/akobirmusaev/Desktop/carauction/src/Contracts/bin/Debug/net9.0/Contracts.dll
+/Users/akobirmusaev/Desktop/carauction/src/Contracts/bin/Debug/net9.0/Contracts.pdb
+/Users/akobirmusaev/Desktop/carauction/src/Contracts/obj/Debug/net9.0/Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/akobirmusaev/Desktop/carauction/src/Contracts/obj/Debug/net9.0/Contracts.AssemblyInfoInputs.cache
+/Users/akobirmusaev/Desktop/carauction/src/Contracts/obj/Debug/net9.0/Contracts.AssemblyInfo.cs
+/Users/akobirmusaev/Desktop/carauction/src/Contracts/obj/Debug/net9.0/Contracts.csproj.CoreCompileInputs.cache
+/Users/akobirmusaev/Desktop/carauction/src/Contracts/obj/Debug/net9.0/Contracts.sourcelink.json
+/Users/akobirmusaev/Desktop/carauction/src/Contracts/obj/Debug/net9.0/Contracts.dll
+/Users/akobirmusaev/Desktop/carauction/src/Contracts/obj/Debug/net9.0/refint/Contracts.dll
+/Users/akobirmusaev/Desktop/carauction/src/Contracts/obj/Debug/net9.0/Contracts.pdb
+/Users/akobirmusaev/Desktop/carauction/src/Contracts/obj/Debug/net9.0/ref/Contracts.dll

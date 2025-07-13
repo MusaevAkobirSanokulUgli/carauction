@@ -140,3 +140,6 @@
 /Users/akobirmusaev/Desktop/carauction/src/AuctionService/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/akobirmusaev/Desktop/carauction/src/AuctionService/obj/Debug/net9.0/AuctionService.csproj.AssemblyReference.cache
 /Users/akobirmusaev/Desktop/carauction/src/AuctionService/obj/Debug/net9.0/AuctionS.72D7E915.Up2Date
+/Users/akobirmusaev/Desktop/carauction/src/AuctionService/bin/Debug/net9.0/Contracts.dll
+/Users/akobirmusaev/Desktop/carauction/src/AuctionService/bin/Debug/net9.0/Contracts.pdb
+/Users/akobirmusaev/Desktop/carauction/src/AuctionService/bin/Debug/net9.0/MassTransit.EntityFrameworkCoreIntegration.dll
