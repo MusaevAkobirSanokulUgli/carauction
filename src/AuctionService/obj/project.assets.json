@@ -100,7 +100,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Authentication.JwtBearer/9.0.6": {
+      "Microsoft.AspNetCore.Authentication.JwtBearer/9.0.7": {
         "type": "package",
         "dependencies": {
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "8.0.1"
@@ -1383,10 +1383,10 @@
         "mt-logo-small.png"
       ]
     },
-    "Microsoft.AspNetCore.Authentication.JwtBearer/9.0.6": {
-      "sha512": "nH1mrzr77pk+n1E5+A/0KlzkNhqy3LS3gUGEjJf0PQE6PZAc3pr8rLwUATcaJMr/12qsxHT+kcvRZMxc4bxFpA==",
+    "Microsoft.AspNetCore.Authentication.JwtBearer/9.0.7": {
+      "sha512": "lloN3XvIgXmdocfghzfszOHJb45OYR3fgOg/h536o+zNB2SmP3JrqeOieCBZ7sipgGcgbxP0boA+loVhdsJxWg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.authentication.jwtbearer/9.0.6",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/9.0.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1395,7 +1395,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
         "lib/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
-        "microsoft.aspnetcore.authentication.jwtbearer.9.0.6.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.jwtbearer.9.0.7.nupkg.sha512",
         "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
@@ -3584,7 +3584,7 @@
       "Contracts >= 1.0.0",
       "MassTransit.EntityFrameworkCore >= 8.5.1",
       "MassTransit.RabbitMQ >= 8.5.1-develop.2336",
-      "Microsoft.AspNetCore.Authentication.JwtBearer >= 9.0.6",
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 9.0.7",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.6",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.4"
     ]
@@ -3650,7 +3650,7 @@
           },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
-            "version": "[9.0.6, )"
+            "version": "[9.0.7, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "target": "Package",

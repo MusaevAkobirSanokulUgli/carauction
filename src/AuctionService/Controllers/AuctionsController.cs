@@ -5,6 +5,7 @@ using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using Contracts;
 using MassTransit;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -55,12 +56,14 @@ public class AuctionsController : ControllerBase
         return _mapper.Map<AuctionDto>(auction);
     }
 
+    [Authorize]
     [HttpPost]
     public async Task<ActionResult<AuctionDto>> CreateAuction(CreateAuctionDto auctionDto)
     {
         var auction = _mapper.Map<Auction>(auctionDto);
+
         //TODO: to add current user as seller
-        auction.Seller = "test";
+        auction.Seller = User.Identity.Name;
         
         _context.Auctions.Add(auction);
 
@@ -78,6 +81,8 @@ public class AuctionsController : ControllerBase
         return CreatedAtAction(nameof(GetAuctionById), new { auction.Id }, newAuction);
 
     }
+
+    [Authorize]
     [HttpPut("{id}")]
     public async Task<ActionResult> UpdateAuction(Guid id, UpdateAuctionDto updateAuctionDto)
     {
@@ -88,6 +93,8 @@ public class AuctionsController : ControllerBase
             return NotFound();
         }
         //TODO: check sseller == username
+        if(auction.Seller != User.Identity.Name) return Forbid();
+      
         auction.Item.Make = updateAuctionDto.Make ?? auction.Item.Make;
         auction.Item.Model = updateAuctionDto.Model ?? auction.Item.Model;
         auction.Item.Color = updateAuctionDto.Color ?? auction.Item.Color;
@@ -103,6 +110,8 @@ public class AuctionsController : ControllerBase
         }
         return Ok();
     }
+
+    [Authorize]
     [HttpDelete("{id}")]
     public async Task<ActionResult> DeleteAuction(Guid id)
     {
@@ -112,6 +121,8 @@ public class AuctionsController : ControllerBase
             return NotFound();
         }
         //TODO: check seller == username
+        if(auction.Seller != User.Identity.Name) return Forbid();
+        
         _context.Auctions.Remove(auction);
         await _publishEndpoint.Publish<AuctionDeleted>(new  { Id = auction.Id.ToString() });
         var result = await _context.SaveChangesAsync() > 0;
