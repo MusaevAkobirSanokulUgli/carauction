@@ -20,9 +20,14 @@ builder.Services.AddMassTransit(x=>
     x.SetEndpointNameFormatter(new KebabCaseEndpointNameFormatter("search", false));
     x.UsingRabbitMq((context, cfg) =>
     {
+        cfg.Host(builder.Configuration["RabbitMq:Host"],"/", h =>
+        {
+            h.Username(builder.Configuration.GetValue("RabbitMq:Username", "guest"));
+            h.Password(builder.Configuration.GetValue("RabbitMq:Password", "guest"));
+        });
 
         //If Mongo db fails to save AuctionCreated event 
-            // by AuctionCreatedConsumer, it will retry 5 times with 5 seconds interval
+        // by AuctionCreatedConsumer, it will retry 5 times with 5 seconds interval
         cfg.ReceiveEndpoint("search-auction-created", e =>
         {
             //If Mongo db fails to save AuctionCreated event 
