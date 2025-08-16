@@ -39,3 +39,4 @@
 /Users/akobirmusaev/Desktop/carauction/src/GatewayService/obj/Debug/net9.0/GatewayService.pdb
 /Users/akobirmusaev/Desktop/carauction/src/GatewayService/obj/Debug/net9.0/GatewayService.genruntimeconfig.cache
 /Users/akobirmusaev/Desktop/carauction/src/GatewayService/obj/Debug/net9.0/ref/GatewayService.dll
+/Users/akobirmusaev/Desktop/carauction/src/GatewayService/bin/Debug/net9.0/appsettings.Docker.json

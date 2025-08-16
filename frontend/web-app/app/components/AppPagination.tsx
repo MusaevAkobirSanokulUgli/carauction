@@ -10,6 +10,9 @@ export default function AppPagination({
   pageCount,
   pageChanged
 }: Props) {
+  if (pageCount === 0) {
+    return null;
+  }
   return (
     <div>
       <Pagination
