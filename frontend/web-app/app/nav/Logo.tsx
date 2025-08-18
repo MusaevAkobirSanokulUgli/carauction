@@ -1,12 +1,22 @@
 "use client";
 import { AiOutlineCar } from "react-icons/ai";
 import { useParamsStore } from "../hooks/useParamsStore";
+import { usePathname, useRouter } from "next/navigation";
 
 export default function Logo() {
   const reset = useParamsStore((state) => state.reset);
+  const router = useRouter();
+  const pathname = usePathname();
+
+  function handleReset() {
+    if (pathname !== "/") {
+      router.push("/");
+      reset();
+    }
+  }
   return (
     <div
-      onClick={reset}
+      onClick={handleReset}
       className=" cursor-pointer flex items-center gap-2 text-3xl font-semibold text-blue-500"
     >
       <AiOutlineCar size={34} />
