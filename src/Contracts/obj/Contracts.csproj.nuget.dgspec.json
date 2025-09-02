@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/akobirmusaev/Desktop/carauction/src/Contracts/Contracts.csproj": {}
+    "/Users/akobirmusaev/Desktop/Carauction/carauction/src/Contracts/Contracts.csproj": {}
   },
   "projects": {
-    "/Users/akobirmusaev/Desktop/carauction/src/Contracts/Contracts.csproj": {
+    "/Users/akobirmusaev/Desktop/Carauction/carauction/src/Contracts/Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/akobirmusaev/Desktop/carauction/src/Contracts/Contracts.csproj",
+        "projectUniqueName": "/Users/akobirmusaev/Desktop/Carauction/carauction/src/Contracts/Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "/Users/akobirmusaev/Desktop/carauction/src/Contracts/Contracts.csproj",
+        "projectPath": "/Users/akobirmusaev/Desktop/Carauction/carauction/src/Contracts/Contracts.csproj",
         "packagesPath": "/Users/akobirmusaev/.nuget/packages/",
-        "outputPath": "/Users/akobirmusaev/Desktop/carauction/src/Contracts/obj/",
+        "outputPath": "/Users/akobirmusaev/Desktop/Carauction/carauction/src/Contracts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/akobirmusaev/.nuget/NuGet/NuGet.Config"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

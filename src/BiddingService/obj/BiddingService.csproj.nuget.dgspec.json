@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/akobirmusaev/Desktop/carauction/src/BiddingService/BiddingService.csproj": {}
+    "/Users/akobirmusaev/Desktop/Carauction/carauction/src/BiddingService/BiddingService.csproj": {}
   },
   "projects": {
-    "/Users/akobirmusaev/Desktop/carauction/src/BiddingService/BiddingService.csproj": {
+    "/Users/akobirmusaev/Desktop/Carauction/carauction/src/BiddingService/BiddingService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/akobirmusaev/Desktop/carauction/src/BiddingService/BiddingService.csproj",
+        "projectUniqueName": "/Users/akobirmusaev/Desktop/Carauction/carauction/src/BiddingService/BiddingService.csproj",
         "projectName": "BiddingService",
-        "projectPath": "/Users/akobirmusaev/Desktop/carauction/src/BiddingService/BiddingService.csproj",
+        "projectPath": "/Users/akobirmusaev/Desktop/Carauction/carauction/src/BiddingService/BiddingService.csproj",
         "packagesPath": "/Users/akobirmusaev/.nuget/packages/",
-        "outputPath": "/Users/akobirmusaev/Desktop/carauction/src/BiddingService/obj/",
+        "outputPath": "/Users/akobirmusaev/Desktop/Carauction/carauction/src/BiddingService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/akobirmusaev/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/akobirmusaev/Desktop/carauction/src/Contracts/Contracts.csproj": {
-                "projectPath": "/Users/akobirmusaev/Desktop/carauction/src/Contracts/Contracts.csproj"
+              "/Users/akobirmusaev/Desktop/Carauction/carauction/src/Contracts/Contracts.csproj": {
+                "projectPath": "/Users/akobirmusaev/Desktop/Carauction/carauction/src/Contracts/Contracts.csproj"
               }
             }
           }
@@ -42,12 +42,16 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "MassTransit.RabbitMQ": {
               "target": "Package",
               "version": "[8.5.3-develop.2360, )"
@@ -80,18 +84,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/akobirmusaev/Desktop/carauction/src/Contracts/Contracts.csproj": {
+    "/Users/akobirmusaev/Desktop/Carauction/carauction/src/Contracts/Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/akobirmusaev/Desktop/carauction/src/Contracts/Contracts.csproj",
+        "projectUniqueName": "/Users/akobirmusaev/Desktop/Carauction/carauction/src/Contracts/Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "/Users/akobirmusaev/Desktop/carauction/src/Contracts/Contracts.csproj",
+        "projectPath": "/Users/akobirmusaev/Desktop/Carauction/carauction/src/Contracts/Contracts.csproj",
         "packagesPath": "/Users/akobirmusaev/.nuget/packages/",
-        "outputPath": "/Users/akobirmusaev/Desktop/carauction/src/Contracts/obj/",
+        "outputPath": "/Users/akobirmusaev/Desktop/Carauction/carauction/src/Contracts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/akobirmusaev/.nuget/NuGet/NuGet.Config"
@@ -118,7 +122,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -139,7 +143,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jr3or65qieg=",
+  "dgSpecHash": "gIZPmj63nsQ=",
   "success": true,
-  "projectFilePath": "/Users/akobirmusaev/Desktop/carauction/src/IdentityService/IdentityService.csproj",
+  "projectFilePath": "/Users/akobirmusaev/Desktop/Carauction/carauction/src/IdentityService/IdentityService.csproj",
   "expectedPackageFiles": [
     "/Users/akobirmusaev/.nuget/packages/duende.identitymodel/7.0.0/duende.identitymodel.7.0.0.nupkg.sha512",
     "/Users/akobirmusaev/.nuget/packages/duende.identityserver/7.2.0/duende.identityserver.7.2.0.nupkg.sha512",

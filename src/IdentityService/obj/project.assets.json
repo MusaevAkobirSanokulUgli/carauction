@@ -4350,11 +4350,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/akobirmusaev/Desktop/carauction/src/IdentityService/IdentityService.csproj",
+      "projectUniqueName": "/Users/akobirmusaev/Desktop/Carauction/carauction/src/IdentityService/IdentityService.csproj",
       "projectName": "IdentityService",
-      "projectPath": "/Users/akobirmusaev/Desktop/carauction/src/IdentityService/IdentityService.csproj",
+      "projectPath": "/Users/akobirmusaev/Desktop/Carauction/carauction/src/IdentityService/IdentityService.csproj",
       "packagesPath": "/Users/akobirmusaev/.nuget/packages/",
-      "outputPath": "/Users/akobirmusaev/Desktop/carauction/src/IdentityService/obj/",
+      "outputPath": "/Users/akobirmusaev/Desktop/Carauction/carauction/src/IdentityService/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/akobirmusaev/.nuget/NuGet/NuGet.Config"
@@ -4381,7 +4381,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -4443,7 +4443,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
