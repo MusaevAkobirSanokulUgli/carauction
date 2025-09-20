@@ -1,12 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "y64Vrrm4C1E=",
+  "dgSpecHash": "6feRvUpExUE=",
   "success": true,
   "projectFilePath": "/Users/akobirmusaev/Desktop/Carauction/carauction/src/BiddingService/BiddingService.csproj",
   "expectedPackageFiles": [
     "/Users/akobirmusaev/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/akobirmusaev/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/Users/akobirmusaev/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
+    "/Users/akobirmusaev/.nuget/packages/google.protobuf/3.32.1/google.protobuf.3.32.1.nupkg.sha512",
+    "/Users/akobirmusaev/.nuget/packages/grpc.core.api/2.71.0/grpc.core.api.2.71.0.nupkg.sha512",
+    "/Users/akobirmusaev/.nuget/packages/grpc.net.client/2.71.0/grpc.net.client.2.71.0.nupkg.sha512",
+    "/Users/akobirmusaev/.nuget/packages/grpc.net.common/2.71.0/grpc.net.common.2.71.0.nupkg.sha512",
+    "/Users/akobirmusaev/.nuget/packages/grpc.tools/2.72.0/grpc.tools.2.72.0.nupkg.sha512",
     "/Users/akobirmusaev/.nuget/packages/masstransit/8.5.3-develop.2360/masstransit.8.5.3-develop.2360.nupkg.sha512",
     "/Users/akobirmusaev/.nuget/packages/masstransit.abstractions/8.5.3-develop.2360/masstransit.abstractions.8.5.3-develop.2360.nupkg.sha512",
     "/Users/akobirmusaev/.nuget/packages/masstransit.rabbitmq/8.5.3-develop.2360/masstransit.rabbitmq.8.5.3-develop.2360.nupkg.sha512",

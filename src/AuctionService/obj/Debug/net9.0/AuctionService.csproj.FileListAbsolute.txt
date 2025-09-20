@@ -152,6 +152,13 @@
 /Users/akobirmusaev/Desktop/Carauction/carauction/src/AuctionService/bin/Debug/net9.0/AuctionService.dll
 /Users/akobirmusaev/Desktop/Carauction/carauction/src/AuctionService/bin/Debug/net9.0/AuctionService.pdb
 /Users/akobirmusaev/Desktop/Carauction/carauction/src/AuctionService/bin/Debug/net9.0/AutoMapper.dll
+/Users/akobirmusaev/Desktop/Carauction/carauction/src/AuctionService/bin/Debug/net9.0/Google.Protobuf.dll
+/Users/akobirmusaev/Desktop/Carauction/carauction/src/AuctionService/bin/Debug/net9.0/Grpc.AspNetCore.Server.dll
+/Users/akobirmusaev/Desktop/Carauction/carauction/src/AuctionService/bin/Debug/net9.0/Grpc.AspNetCore.Server.ClientFactory.dll
+/Users/akobirmusaev/Desktop/Carauction/carauction/src/AuctionService/bin/Debug/net9.0/Grpc.Core.Api.dll
+/Users/akobirmusaev/Desktop/Carauction/carauction/src/AuctionService/bin/Debug/net9.0/Grpc.Net.Client.dll
+/Users/akobirmusaev/Desktop/Carauction/carauction/src/AuctionService/bin/Debug/net9.0/Grpc.Net.ClientFactory.dll
+/Users/akobirmusaev/Desktop/Carauction/carauction/src/AuctionService/bin/Debug/net9.0/Grpc.Net.Common.dll
 /Users/akobirmusaev/Desktop/Carauction/carauction/src/AuctionService/bin/Debug/net9.0/Humanizer.dll
 /Users/akobirmusaev/Desktop/Carauction/carauction/src/AuctionService/bin/Debug/net9.0/MassTransit.dll
 /Users/akobirmusaev/Desktop/Carauction/carauction/src/AuctionService/bin/Debug/net9.0/MassTransit.Abstractions.dll

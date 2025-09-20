@@ -103,3 +103,7 @@
 /Users/akobirmusaev/Desktop/Carauction/carauction/src/BiddingService/obj/Debug/net9.0/BiddingService.pdb
 /Users/akobirmusaev/Desktop/Carauction/carauction/src/BiddingService/obj/Debug/net9.0/BiddingService.genruntimeconfig.cache
 /Users/akobirmusaev/Desktop/Carauction/carauction/src/BiddingService/obj/Debug/net9.0/ref/BiddingService.dll
+/Users/akobirmusaev/Desktop/Carauction/carauction/src/BiddingService/bin/Debug/net9.0/Google.Protobuf.dll
+/Users/akobirmusaev/Desktop/Carauction/carauction/src/BiddingService/bin/Debug/net9.0/Grpc.Core.Api.dll
+/Users/akobirmusaev/Desktop/Carauction/carauction/src/BiddingService/bin/Debug/net9.0/Grpc.Net.Client.dll
+/Users/akobirmusaev/Desktop/Carauction/carauction/src/BiddingService/bin/Debug/net9.0/Grpc.Net.Common.dll
